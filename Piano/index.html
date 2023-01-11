@@ -2,15 +2,88 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>Piano</title>
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
 
-<div data-key="65" class="key button"> <button> A </button> </div>
+<div class="container box" >
+	<div class="row" style="height: 100%; width: 100%;">
+		<div class="col-md-12" style="height: 50%; width: 100%;" >
+			<div class="row" style="height: 100%; width: 100%;">
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="65" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="66" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="67" class="btn key"></button></div> 
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="68" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="69" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="70" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="71" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="72" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="73" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="74" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="75" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="76" class="btn key"></button></div>
+			</div>
+		</div>
+	
+		<div class="col-md-12 " style="height: 50%;">
+			<div class="row" style="height: 100%;">
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="77" class="btn key h-100"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="78" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="79" class="btn key"></button></div> 
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="80" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="81" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="82" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="83" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="84" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="85" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="86" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="87" class="btn key"></button></div>
+				<div class="col-xs-6 col-sm-3 col-md-1 "> <button data-key="88" class="btn key"></button></div>
+			</div>
+		</div>	
+	</div>
+</div>
 
 
-<audio data-key="65" src="24-piano-keys/key01.mp3"> </audio>
-<script src="index.js" type="text/javascript" charset="utf-8" async defer></script>
+<audio data-key="18"  src="meme/mario.mp3"> </audio>
+<audio data-key="32"  src="meme/bruh.mp3"> </audio>
+<audio data-key="13"  src="meme/yeah-boy.mp3"> </audio>
+<audio data-key="27"  src="meme/bass.mp3"> </audio>
+
+
+<audio data-key="65"  src="24-piano-keys/key01.mp3"> </audio>
+<audio data-key="66"  src="24-piano-keys/key02.mp3"> </audio>
+<audio data-key="67"  src="24-piano-keys/key03.mp3"> </audio>
+<audio data-key="68"  src="24-piano-keys/key04.mp3"> </audio>
+<audio data-key="69"  src="24-piano-keys/key05.mp3"> </audio>
+<audio data-key="70"  src="24-piano-keys/key06.mp3"> </audio>
+<audio data-key="71"  src="24-piano-keys/key07.mp3"> </audio>
+<audio data-key="72"  src="24-piano-keys/key08.mp3"> </audio>
+<audio data-key="73"  src="24-piano-keys/key09.mp3"> </audio>
+<audio data-key="74"  src="24-piano-keys/key10.mp3"> </audio>
+<audio data-key="75"  src="24-piano-keys/key11.mp3"> </audio>
+<audio data-key="76"  src="24-piano-keys/key12.mp3"> </audio>
+<audio data-key="77"  src="24-piano-keys/key13.mp3"> </audio>
+<audio data-key="78"  src="24-piano-keys/key14.mp3"> </audio>
+<audio data-key="79"  src="24-piano-keys/key15.mp3"> </audio>
+<audio data-key="80"  src="24-piano-keys/key16.mp3"> </audio>
+<audio data-key="81"  src="24-piano-keys/key17.mp3"> </audio>
+<audio data-key="82"  src="24-piano-keys/key18.mp3"> </audio>
+<audio data-key="83"  src="24-piano-keys/key19.mp3"> </audio>
+<audio data-key="84"  src="24-piano-keys/key20.mp3"> </audio>
+<audio data-key="85"  src="24-piano-keys/key21.mp3"> </audio>
+<audio data-key="86"  src="24-piano-keys/key22.mp3"> </audio>
+<audio data-key="87"  src="24-piano-keys/key23.mp3"> </audio>
+<audio data-key="88"  src="24-piano-keys/key24.mp3"> </audio>
+<audio data-key="89"  src="24-piano-keys/key02.mp3"> </audio>
+<audio data-key="90"  src="24-piano-keys/key01.mp3"> </audio>
+
+
+
+<script src="index.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
